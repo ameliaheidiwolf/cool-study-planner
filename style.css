@@ -89,7 +89,6 @@ button:hover {
 img {
   width: 250px;
   height: auto;
-  image-rendering: pixelated;
 }
 
 .music-player-centered {

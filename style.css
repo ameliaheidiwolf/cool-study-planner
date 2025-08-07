@@ -1,0 +1,125 @@
+h1, h2, #timer {
+    font-family: 'Press Start 2P', cursive, sans-serif;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    color: white
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 130px;
+    margin: 0;
+}
+
+#task-section, #timer-section {
+  width: 300px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#task-list {
+    width: 100%;
+    text-align: left;
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+#task-section {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+#timer-section {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+h1, h2 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: white;
+  border: 1px solid #999;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+}
+
+#timer {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.timer-buttons {
+    display: flex;
+    gap: 16px;
+    margin-top: 10px;
+}
+
+img {
+  width: 250px;
+  height: auto;
+  image-rendering: pixelated;
+}
+
+.music-player-centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    background: linear-gradient(135deg, #1b1136 60%, #081458 100%);
+    padding: 24px 40px;
+    border-radius: 20px;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.25);
+    border: 2px solid #fff;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.music-player-centered h2 {
+    color: #fff;
+    font-family: 'Press Start 2P', cursive, sans-serif;
+    font-size: 16px;
+    margin-bottom: 16px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.music-player-centered audio {
+    width: 100%;
+    filter: drop-shadow(0 2px 6px #000);
+    background: transparent;
+    border-radius: 8px;
+    outline: none;
+}
